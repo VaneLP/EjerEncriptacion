@@ -39,6 +39,15 @@ public class EncriptacionController implements Initializable {
 
     }
 
+    @FXML
+    void selectBCry(ActionEvent event) {
+
+    }
+
+    @FXML
+    void selectCripSi(ActionEvent event) {
+
+    }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         comboBox.getItems().addAll("AES/ECB","AES/CBC","DES","3DES");

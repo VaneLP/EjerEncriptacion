@@ -33,8 +33,8 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <RadioButton fx:id="radioBuCriptoSime" mnemonicParsing="false" text="Criptografia Simetrica" GridPane.halignment="CENTER" />
-            <RadioButton fx:id="radioBuBcrypt" mnemonicParsing="false" text="BCrypt" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <RadioButton fx:id="radioBuCriptoSime" mnemonicParsing="false" onAction="#selectCripSi" text="Criptografia Simetrica" GridPane.halignment="CENTER" />
+            <RadioButton fx:id="radioBuBcrypt" mnemonicParsing="false" onAction="#selectBCry" text="BCrypt" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
             <ComboBox fx:id="comboBox" prefWidth="150.0" GridPane.columnIndex="1" />
          </children>
       </GridPane>
